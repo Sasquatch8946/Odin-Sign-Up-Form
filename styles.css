@@ -1,0 +1,21 @@
+.flex-container {
+    display: flex;
+    height: 100%
+}
+
+.main-content {
+    flex: 1;
+    border: 2px solid firebrick;
+}
+
+
+.left-panel {
+    flex: 0.5;
+}
+
+.left-panel img {
+    max-width: 100%;
+}
+
+
+
