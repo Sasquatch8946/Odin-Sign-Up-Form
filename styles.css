@@ -11,10 +11,24 @@
 
 .left-panel {
     flex: 0.5;
+    position: relative;
+    display: flex;
 }
 
 .left-panel img {
     max-width: 100%;
+    opacity: 0.5;
+    position: relative;
+}
+
+.odin-logo-container {
+    background: black;
+    min-width: 100%;
+    height: 40px;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
 }
 
 
