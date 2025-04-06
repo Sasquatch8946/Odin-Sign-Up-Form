@@ -11,38 +11,50 @@
         <div class="left-panel">
             <div class="odin-logo-container">
                 <img src="img/odin-lined.png" alt="odin logo">
+                <div class="odin-label">Odin</div>
             </div>
+            <div class="credit">Photo by Halie West on Unsplash</div>
             <img src="img/halie-west-25xggax4bSA-unsplash.jpg" alt="leaves">
         </div>
         <div class="main-content">
-            <p>This is not a real online service! You need something
-                like this in your life to help you realize your
-                deepest dreams. Sign up <i>now</i> to get started.
-            </p>
-            <p>
-                You <i>know</i> you want to.
-            </p>
-            <form action="">
-                <fieldset>
-                    <legend>
-                        Let's do this!
-                    </legend>
-                    <label for="firstname" name="firstName">First Name</label>
-                    <input type="text" id="firstname">
-                    <label for="lastname" name="firstName">Last Name</label>
-                    <input type="text" id="lastname">
-                    <label for="emailaddress" name="emailAddress">Email</label>
-                    <input type="email" id="emailaddress">
-                    <label for="phonenumber" name="phoneNumber">Phone</label>
-                    <input type="tel" id="phonenumber">
-                    <label for="passwd" name="password">Password</label>
-                    <input type="password" id="passwd">
-                    <label for="confirmpasswd" name="confirmPasswd">Confirm Password</label>
-                    <input type="password" id="confirmpasswd">
-                </fieldset>
-                <input type="submit" value="Create Account" />
-            </form>
-            <p>Already have an account? Log in.</p>
+            <div class="wrapper">
+                <div class="intro">
+                    <p>This is not a real online service! You need something
+                        like this in your life to help you realize your
+                        deepest dreams. Sign up <i>now</i> to get started.
+                    </p>
+                    <p>
+                        You <i>know</i> you want to.
+                    </p>
+                </div>
+                <form action="">
+                    <fieldset>
+                        <legend>
+                            Let's do this!
+                        </legend>
+                        <div class="input-container">
+                            <div class="form-column">
+                                <label for="firstname" name="firstName">First Name</label>
+                                <input type="text" id="firstname">
+                                <label for="emailaddress" name="emailAddress">Email</label>
+                                <input type="email" id="emailaddress">
+                                <label for="passwd" name="password">Password</label>
+                                <input type="password" id="passwd">
+                            </div>
+                            <div class="form-column">
+                                <label for="lastname" name="firstName">Last Name</label>
+                                <input type="text" id="lastname">
+                                <label for="phonenumber" name="phoneNumber">Phone</label>
+                                <input type="tel" id="phonenumber">
+                                <label for="confirmpasswd" name="confirmPasswd">Confirm Password</label>
+                                <input type="password" id="confirmpasswd">
+                            </div>
+                        </div>
+                    </fieldset>
+                    <input type="submit" value="Create Account" />
+                </form>
+                <p>Already have an account? Log in.</p>
+            </div>
         </div>
     </div>
 </body>

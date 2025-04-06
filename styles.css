@@ -1,3 +1,7 @@
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
 .flex-container {
     display: flex;
     height: 100%
@@ -38,5 +42,103 @@
     max-height: 100%;
 }
 
+.odin-label {
+    color: white;
+    font-size: 3em;
+    font-family: 'Norse';
+    opacity: 1;
+}
+
+p {
+    border: 2px solid firebrick;
+    margin-left: 14px;
+}
+
+div.wrapper {
+    border: 2px solid firebrick;
+    margin: 3em 3em;
+}
+
+div.credit {
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    right: 0;
+    max-height: fit-content;
+    width: fit-content;
+    color: white;
+    z-index: 2;
+    margin-inline: auto;
+}
+
+.intro {
+    border: 2px solid firebrick;
+    font-weight: bold;
+}
+
+form {
+    margin-top: 2rem;
+}
+
+fieldset {
+    border: none;
+}
+
+input[type="submit"] {
+    background-color: #596D48;
+    color: white;
+    border-radius: 5px;
+    margin: 5px 10px;
+    font-size: 10px;
+}
+
+button,
+input,
+select,
+textarea,
+legend {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+input,
+textarea,
+select,
+button {
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    margin-bottom: 20px;
+    display: flex;
+    border: 2px solid firebrick;
+    justify-content: flex-start;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    display: flex;
+    border: 2px solid firebrick;
+}
 
 
+@font-face {
+    font-family: 'Norse';
+    src: url('/fonts/Norse-Bold.woff2') format('woff2'),
+        url('/fonts/Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
