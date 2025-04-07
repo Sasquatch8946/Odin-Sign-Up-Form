@@ -69,6 +69,7 @@ div.credit {
     color: white;
     z-index: 2;
     margin-inline: auto;
+    font-size: 10px;
 }
 
 .intro {
@@ -84,13 +85,14 @@ fieldset {
     border: none;
 }
 
-input[type="submit"] {
+/* input[type="submit"] {
     background-color: #596D48;
     color: white;
     border-radius: 5px;
-    margin: 5px 10px;
-    font-size: 10px;
-}
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px;
+}*/
 
 button,
 input,
@@ -116,20 +118,54 @@ legend {
     margin-bottom: 20px;
 }
 
-.form-row {
-    margin-bottom: 20px;
-    display: flex;
-    border: 2px solid firebrick;
-    justify-content: flex-start;
-}
+
 
 .form-column {
     display: flex;
     flex-direction: column;
+    border: 2px solid firebrick;
 }
 
 .input-container {
     display: flex;
+    border: 2px solid firebrick;
+}
+
+.input-container .form-column:nth-child(2) {
+    margin-left: 40px;
+}
+
+.form-row button {
+    font-size: 16px;
+    font-weight: bold;
+  
+    color: #FFFFFF;
+    background-color: #596D48;
+  
+    border: none;
+    border-radius: 5px;
+  
+    padding: 10px 40px;
+    cursor: pointer;
+    margin-left: 15px;
+    width: fit-content;
+}
+
+.form-column * {
+    margin-bottom: 10px;
+}
+
+.form-column input {
+    border-color: #E5E7EB;
+    border-radius: 3px;
+}
+
+.form-column input:focus {
+    border-color: 2px solid blue;
+    box-shadow: blue 2px 2px;
+}
+
+.form-column input[type=password]:invalid {
     border: 2px solid firebrick;
 }
 
