@@ -161,7 +161,8 @@ legend {
     box-shadow: blue 2px 2px;
 }
 
-.form-column input[type=password]:invalid {
+.form-column input[type=password]:invalid,
+.form-column input[type=password]:user-invalid {
     border: 2px solid firebrick;
 }
 
