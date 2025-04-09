@@ -1,0 +1,4 @@
+[] Make input labels look more like the photo. 
+[] Widen input fields?
+[] Make sure all elements in the main-content div are lined up on the
+   left margin. I think submit button may be off because of padding.
