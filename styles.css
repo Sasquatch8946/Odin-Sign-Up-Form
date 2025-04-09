@@ -85,14 +85,6 @@ fieldset {
     border: none;
 }
 
-/* input[type="submit"] {
-    background-color: #596D48;
-    color: white;
-    border-radius: 5px;
-    margin: 10px;
-    font-size: 20px;
-    padding: 10px;
-}*/
 
 button,
 input,
@@ -151,7 +143,7 @@ legend {
   
     padding: 10px 40px;
     cursor: pointer;
-    margin-left: 15px;
+    margin-left: 14px;
     width: fit-content;
 }
 
@@ -180,6 +172,10 @@ label {
 a {
     text-decoration: none;
     color: #596D48;
+}
+
+.intro p, legend {
+    font-size: 24px;
 }
 
 @font-face {
