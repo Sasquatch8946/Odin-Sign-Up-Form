@@ -179,12 +179,21 @@ p > a {
     color: #596D48;
 }
 
+p.login {
+    margin-top: 40px;
+}
+
 .intro p, legend {
     font-size: 18px;
 }
 
 input:not(:focus) {
     border-color: rgba(128, 128, 128, 0.2)
+}
+
+form {
+    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.2);
+    width: 100%;
 }
 
 @font-face {
