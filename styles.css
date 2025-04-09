@@ -9,7 +9,6 @@ body {
 
 .main-content {
     flex: 1;
-    border: 2px solid firebrick;
 }
 
 
@@ -25,14 +24,13 @@ body {
 }
 
 .odin-logo-container {
-    background: black;
+    background: rgba(0, 0, 0, 0.5);
     min-width: 100%;
     height: 6em;
     position: absolute;
     z-index: 3;
     top: 10em;
     left: 0;
-    opacity: 0.5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,18 +42,16 @@ body {
 
 .odin-label {
     color: white;
-    font-size: 3em;
+    font-size: 4em;
     font-family: 'Norse';
     opacity: 1;
 }
 
 p {
-    border: 2px solid firebrick;
     margin-left: 14px;
 }
 
 div.wrapper {
-    border: 2px solid firebrick;
     margin: 3em 3em;
 }
 
@@ -73,7 +69,6 @@ div.credit {
 }
 
 .intro {
-    border: 2px solid firebrick;
     font-weight: bold;
 }
 
@@ -83,6 +78,7 @@ form {
 
 fieldset {
     border: none;
+    /* box-shadow: grey 2px 2px 9px;*/
 }
 
 
@@ -110,8 +106,8 @@ input {
 }
 
 legend {
-    font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 60px;
 }
 
 
@@ -119,12 +115,10 @@ legend {
 .form-column {
     display: flex;
     flex-direction: column;
-    border: 2px solid firebrick;
 }
 
 .input-container {
     display: flex;
-    border: 2px solid firebrick;
 }
 
 .input-container .form-column:nth-child(2) {
@@ -143,7 +137,7 @@ legend {
   
     padding: 10px 40px;
     cursor: pointer;
-    margin-left: 14px;
+    margin: 20px 14px;
     width: fit-content;
 }
 
