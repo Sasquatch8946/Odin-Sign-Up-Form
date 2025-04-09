@@ -141,8 +141,8 @@ legend {
     width: fit-content;
 }
 
-.form-column * {
-    margin-bottom: 10px;
+.form-column input {
+    margin-bottom: 30px;
 }
 
 .form-column input {
@@ -160,16 +160,24 @@ legend {
 }
 
 label {
-    font-weight: bold;
+    font-size: 12px;
 }
 
 a {
+    color: white;
+}
+
+p > a {
     text-decoration: none;
     color: #596D48;
 }
 
 .intro p, legend {
     font-size: 24px;
+}
+
+input:not(:focus) {
+    border-color: rgba(128, 128, 128, 0.2)
 }
 
 @font-face {
