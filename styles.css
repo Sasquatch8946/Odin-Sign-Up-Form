@@ -52,13 +52,14 @@ body {
     opacity: 1;
 }
 
-p {
-    margin-left: 14px;
+p,
+legend,
+fieldset,
+button {
+    margin-left: 64px;
 }
 
-div.wrapper {
-    margin: 3em 3em;
-}
+
 
 div.credit {
     position: absolute;
@@ -83,6 +84,7 @@ form {
 
 fieldset {
     border: none;
+    padding: 0px;
     /* box-shadow: grey 2px 2px 9px;*/
 }
 
@@ -111,8 +113,8 @@ input {
 }
 
 legend {
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin: 40px 0 40px 0;
+    padding: 0px;
 }
 
 
@@ -142,9 +144,8 @@ legend {
   
     padding: 10px 40px;
     cursor: pointer;
-    margin: 20px 14px;
+    margin: 20px 0 40px 64px;
     width: fit-content;
-    margin-bottom: 40px;
 }
 
 .form-column input {
@@ -187,6 +188,9 @@ p.login {
     font-size: 18px;
 }
 
+.intro p {
+    margin-right: 30px;
+}
 input:not(:focus) {
     border-color: rgba(128, 128, 128, 0.2)
 }
