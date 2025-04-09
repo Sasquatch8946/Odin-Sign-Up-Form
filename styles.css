@@ -12,6 +12,7 @@ body {
 
 .main-content {
     flex: 1;
+    padding: 50px 0 200px 0;
 }
 
 
@@ -111,7 +112,7 @@ input {
 
 legend {
     margin-bottom: 40px;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 
@@ -143,6 +144,7 @@ legend {
     cursor: pointer;
     margin: 20px 14px;
     width: fit-content;
+    margin-bottom: 40px;
 }
 
 .form-column input {
@@ -177,7 +179,7 @@ p > a {
 }
 
 .intro p, legend {
-    font-size: 24px;
+    font-size: 18px;
 }
 
 input:not(:focus) {
